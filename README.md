@@ -99,7 +99,7 @@ a=ones(m,n) // zeros(m.n)
 ```
 c = [a b] //row
 c = [a;b] //column
-
+```
 - Element by element matrix operations
 1. Multiplication of Matrices A and B  => A. *B
 2. Divison  of Matrices A and B        => A. /B
