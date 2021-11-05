@@ -106,3 +106,13 @@ c = [a;b] //column
 3. Exponentiation of Matrices A and B  => A. ^B
 
 - Transpose of a matrix => A => A'
+
+## Scatter Plot
+<img src='./plotting.png'/>
+
+```
+title('this is the title of the graph')
+set(gca,'fontsize',number) 
+xlabel('this text will appear below the x-axis.')
+ylabel('This text will appear to the left of the y-axis.')
+axis([XminXmaxYminYmax])
