@@ -116,3 +116,9 @@ set(gca,'fontsize',number)
 xlabel('this text will appear below the x-axis.')
 ylabel('This text will appear to the left of the y-axis.')
 axis([XminXmaxYminYmax])
+```
+## Line Plot 
+
+``` 
+plot(x1,y1,property1,x2,y2,property2,...xn,yn,propertyn,)
+```
