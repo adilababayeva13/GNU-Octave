@@ -108,7 +108,7 @@ c = [a;b] //column
 - Transpose of a matrix => A => A'
 
 ## Scatter Plot
-<img src='./plotting.png'/>
+<img src='./plotting.png' align="center"/>
 
 ```
 title('this is the title of the graph')
@@ -122,3 +122,7 @@ axis([XminXmaxYminYmax])
 ``` 
 plot(x1,y1,property1,x2,y2,property2,...xn,yn,propertyn,)
 ```
+
+### Note
+You can find eigenvalues of a matrix by using the eig() function :
+<img src='./eig().png' align="center"/>
