@@ -43,11 +43,11 @@ If invoked without an argument, the manual is shown from the beginning.
 
 ## Arithmetic Operators
 ```
-a + b //Addition
-a - b //Subtraction
-a*b   //Multiplication
-a^b or a**b //Exponentiation
-a/b //Division
+a + b % Addition
+a - b % Subtraction
+a*b   % Multiplication
+a^b or a**b % Exponentiation
+a/b % Division
 ```
 ## Variables 
 - Variables are data storage space for numeric or string (or text) values.
@@ -92,24 +92,24 @@ Variable name = [element1 element2 element3; ... ]
 ```
 - Identity Matrix 
 ```
-I= eye(n) // n is the size
+I= eye(n) % n is the size
 ```
 - Matrix with ones m by n size (/zeros)
 ```
-a=ones(m,n) // zeros(m,n)
-ones(m) // zeros(m) m by m size
+a=ones(m,n) % zeros(m,n)
+ones(m) % zeros(m) m by m size
 ```
 - Random matrix
 ```
- rand(m) // m by m size matrix with with random numbers between 0 and 1
- rand(m,n) // m by n size matrix with with random numbers between 0 and 1
+ rand(m) % m by m size matrix with with random numbers between 0 and 1
+ rand(m,n) % m by n size matrix with with random numbers between 0 and 1
 ```
 - Reshape function
  Return a matrix with the specified dimensions whose elements are taken from the matrix.
  The elements of the matrix are accessed in column-major order (like
  Fortran arrays are stored).
  ```
- reshape(x,n,m) // rearrange the elements of x into n by m size matrix.
+ reshape(x,n,m) % rearrange the elements of x into n by m size matrix.
  ```
  <img src='./images/reshape.png' align="center"/>
 
@@ -120,8 +120,8 @@ ones(m) // zeros(m) m by m size
 
 - Combination of matrices (e.g a and b)
 ```
-c = [a b] //row
-c = [a;b] //column
+c = [a b] %row
+c = [a;b] %column
 ```
 <img src='./images/comb.png' align="center"/>
 
@@ -179,6 +179,47 @@ plot(x1,y1,property1,x2,y2,property2,...xn,yn,propertyn,)
    - *in Command window* 
 
      <img src='./images/scoreRun.png' align="center" />
+
+## Loops
+- For loop
+ ```
+for var = expression
+    body
+end
+% (endfor can also be used)
+ ```
+
+ Example 1 :
+ ```
+% the value of i will move from 1 to 5
+% with an increment of 1
+for i = 1:5,
+  
+% displays value of i
+disp(i);
+  
+% end the for loop
+end;
+```
+Example 2 : for loop with vectors :
+```
+% making a column vector from 1 to 10
+v = [1; 2; 3; 4; 5; 6; 7; 8; 9; 10];
+  
+% the value of i will move from 1 to 10 
+% with an increment of 1
+for i = 1:10,
+   
+% modifying the value of ith element 
+% in the column vector as v(i) * 10 
+v(i) = v(i) * 10;
+   
+% end the for loop
+end; 
+   
+% displays the v vector with modified values
+disp(v) % Output :  10 20 30 ... 100
+```
 
 
 ### Source : https://www.youtube.com/watch?v=TqwSlEsbObg
