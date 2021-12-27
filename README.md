@@ -142,6 +142,7 @@ xlabel('this text will appear below the x-axis.')
 ylabel('This text will appear to the left of the y-axis.')
 axis([XminXmaxYminYmax])
 ```
+<img src='./images/scatter.png' align="center"/>
 ## Line Plot 
 
 ``` 
