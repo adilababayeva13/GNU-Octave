@@ -143,11 +143,13 @@ ylabel('This text will appear to the left of the y-axis.')
 axis([XminXmaxYminYmax])
 ```
 <img src='./images/scatter.png' align="center"/>
+
 ## Line Plot 
 
 ``` 
 plot(x1,y1,property1,x2,y2,property2,...xn,yn,propertyn,)
 ```
+<img src='./images/line.png' align="center"/>
 
 
 ### Source : https://www.youtube.com/watch?v=TqwSlEsbObg
