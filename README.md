@@ -4,7 +4,7 @@
 
 - It has numerous built-in functions and various plotting capabilities.
 
-- It also aallows for developing user-defined functions.
+- It also allows for developing user-defined functions.
 
 - It is a free software, and highly compatible with Matlab.
 
@@ -58,7 +58,7 @@ whos
 Provide detailed information on currently defined variables matching the given patterns.
 Options and pattern syntax are the same as for the who command.
 Extended information about each variable is summarized in a table with the following default entries. 
-
+<img src="./images/who.whos.png" align="center">
 ### Vectors 
 1. Row Vector
 
@@ -108,7 +108,7 @@ c = [a;b] //column
 - Transpose of a matrix => A => A'
 
 ## Scatter Plot
-<img src='./plotting.png' align="center"/>
+<img src='./images/plotting.png' align="center"/>
 
 ```
 title('this is the title of the graph')
@@ -125,6 +125,6 @@ plot(x1,y1,property1,x2,y2,property2,...xn,yn,propertyn,)
 
 ### Note
 You can find eigenvalues of a matrix by using the eig() function :
-<img src='./eig().png' align="center"/>
+<img src='./images/eig().png' align="center"/>
 
 ### Source : https://www.youtube.com/watch?v=TqwSlEsbObg
