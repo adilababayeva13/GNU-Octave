@@ -56,7 +56,7 @@ a/b //Division
 whos
 ```
 
-<img src="./images/who.whos.png" align="center">
+<img src="./images/who.whos.png" align="center"/>
 
 Provide detailed information on currently defined variables matching the given patterns.
 Options and pattern syntax are the same as for the who command.
@@ -104,6 +104,15 @@ ones(m) // zeros(m) m by m size
  rand(m) // m by m size matrix with with random numbers between 0 and 1
  rand(m,n) // m by n size matrix with with random numbers between 0 and 1
 ```
+- Reshape function
+ Return a matrix with the specified dimensions whose elements are taken from the matrix.
+ The elements of the matrix are accessed in column-major order (like
+ Fortran arrays are stored).
+ ```
+ reshape(x,n,m) // rearrange the elements of x into n by m size matrix.
+ ```
+ <img src='./images/reshape.png' align="center"/>
+ 
 - Combination of matrices (e.g a and b)
 ```
 c = [a b] //row
