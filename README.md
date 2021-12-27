@@ -114,8 +114,9 @@ ones(m) // zeros(m) m by m size
  <img src='./images/reshape.png' align="center"/>
 
 - Eigenvalues
-You can find eigenvalues of a matrix by using the eig() function :
-<img src='./images/eig().png' align="center"/>
+
+ You can find eigenvalues of a matrix by using the eig() function :
+ <img src='./images/eig().png' align="center"/>
 
 - Combination of matrices (e.g a and b)
 ```
