@@ -55,10 +55,13 @@ a/b //Division
 ```
 whos
 ```
+
+<img src="./images/who.whos.png" align="center">
+
 Provide detailed information on currently defined variables matching the given patterns.
 Options and pattern syntax are the same as for the who command.
 Extended information about each variable is summarized in a table with the following default entries. 
-<img src="./images/who.whos.png" align="center">
+
 ### Vectors 
 1. Row Vector
 
@@ -91,9 +94,15 @@ Variable name = [element1 element2 element3; ... ]
 ```
 I= eye(n) // n is the size
 ```
-- matrix with ones m by n size (/zeros)
+- Matrix with ones m by n size (/zeros)
 ```
-a=ones(m,n) // zeros(m.n)
+a=ones(m,n) // zeros(m,n)
+ones(m) // zeros(m) m by m size
+```
+- Random matrix
+```
+ rand(m) // m by m size matrix with with random numbers between 0 and 1
+ rand(m,n) // m by n size matrix with with random numbers between 0 and 1
 ```
 - Combination of matrices (e.g a and b)
 ```
