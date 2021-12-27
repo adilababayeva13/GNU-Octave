@@ -167,6 +167,7 @@ plot(x1,y1,property1,x2,y2,property2,...xn,yn,propertyn,)
      - <img src='./images/func2.png' align="center" />
 
 - *in Command window* running of them
+
   <img src='./images/run.png' align="center" />
 
 ### Source : https://www.youtube.com/watch?v=TqwSlEsbObg
