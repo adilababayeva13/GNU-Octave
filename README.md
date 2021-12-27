@@ -112,12 +112,14 @@ ones(m) // zeros(m) m by m size
  reshape(x,n,m) // rearrange the elements of x into n by m size matrix.
  ```
  <img src='./images/reshape.png' align="center"/>
- 
+
 - Combination of matrices (e.g a and b)
 ```
 c = [a b] //row
 c = [a;b] //column
 ```
+<img src='./images/comb.png' align="center"/>
+
 - Element by element matrix operations
 1. Multiplication of Matrices A and B  => A. *B
 2. Divison  of Matrices A and B        => A. /B
