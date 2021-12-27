@@ -113,6 +113,10 @@ ones(m) // zeros(m) m by m size
  ```
  <img src='./images/reshape.png' align="center"/>
 
+- Eigenvalues
+You can find eigenvalues of a matrix by using the eig() function :
+<img src='./images/eig().png' align="center"/>
+
 - Combination of matrices (e.g a and b)
 ```
 c = [a b] //row
@@ -143,8 +147,5 @@ axis([XminXmaxYminYmax])
 plot(x1,y1,property1,x2,y2,property2,...xn,yn,propertyn,)
 ```
 
-### Note
-You can find eigenvalues of a matrix by using the eig() function :
-<img src='./images/eig().png' align="center"/>
 
 ### Source : https://www.youtube.com/watch?v=TqwSlEsbObg
