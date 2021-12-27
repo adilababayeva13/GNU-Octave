@@ -158,5 +158,10 @@ plot(x1,y1,property1,x2,y2,property2,...xn,yn,propertyn,)
 3. Scripts and functions can be run by "calling" from command window.
 4. Often, we consider the script/function writing as Octave or Matlab programing.
 
+### Examples
+- *In editor section* exapmles of script and function
+     - <img src='./images/script.png' align="center"/>
+     - <img src='./images/func1.png' align="center" />
+     - <img src='./images/func2.png' align="center" />
 
 ### Source : https://www.youtube.com/watch?v=TqwSlEsbObg
