@@ -151,5 +151,12 @@ plot(x1,y1,property1,x2,y2,property2,...xn,yn,propertyn,)
 ```
 <img src='./images/line.png' align="center"/>
 
+## Script and Function
+
+1. Scripts and functions are the collections of Octave or Matlab commands as text files with the file extension m.
+2. Octave/Matlab scripts and functions are also known as a "m-file".
+3. Scripts and functions can be run by "calling" from command window.
+4. Often, we consider the script/function writing as Octave or Matlab programing.
+
 
 ### Source : https://www.youtube.com/watch?v=TqwSlEsbObg
