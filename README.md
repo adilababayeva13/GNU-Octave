@@ -170,4 +170,15 @@ plot(x1,y1,property1,x2,y2,property2,...xn,yn,propertyn,)
 
   <img src='./images/run.png' align="center" />
 
+- *Input function with conditional statement*
+
+   - *In editor section*
+
+  <img src='./images/input.png' align="center" />
+
+   - *in Command window* 
+
+     <img src='./images/scoreRun.png' align="center" />
+
+
 ### Source : https://www.youtube.com/watch?v=TqwSlEsbObg
