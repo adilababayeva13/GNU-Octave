@@ -221,5 +221,29 @@ end;
 disp(v) % Output :  10 20 30 ... 100
 ```
 
+- While loop
+
+```
+while (condition)
+    body
+end
+(endwhile can also be used)
+```
+ Example 1 : 
+
+ ```
+i = 1;
+
+while i <= 10
+  
+% displaying the value of i
+disp(i);
+  
+% make an increment of 1 in the value of i
+i = i + 1;
+
+endwhile
+% Output : 1 2 3 ... 10
+```
 
 ### Source : https://www.youtube.com/watch?v=TqwSlEsbObg
