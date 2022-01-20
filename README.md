@@ -118,6 +118,13 @@ ones(m) % zeros(m) m by m size
  You can find eigenvalues of a matrix by using the eig() function :
  <img src='./images/eig().png' align="center"/>
 
+- Inverse of a matrix
+```
+  inv(A)
+```
+ <img src='./images/inv.png' align="center"/>
+
+
 - Combination of matrices (e.g a and b)
 ```
 c = [a b] %row
