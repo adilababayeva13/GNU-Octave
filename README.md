@@ -14,7 +14,7 @@ https://www.gnu.org/software/octave/
 
 ## Help & Lookfor & doc
 
-```
+```R
  help name
  help --list
  ```
@@ -24,7 +24,7 @@ Display the help text for name.
 For example, the command help help prints a short message describing the help command.
 Given the single argument --list, list all operators, keywords, built-in functions, and loadable functions available in the current session of Octave. 
 
-```
+```R
 lookfor str
 lookfor -all str 
 ```
@@ -33,7 +33,7 @@ Search for the string str in the documentation of all functions in the current f
 
 By default, lookfor looks for str in just the first sentence of the help string for each function found. The entire help text of each function can be searched by using the "-all" argument. All searches are case insensitive. 
 
-```
+```R
  doc function_name
  doc
 ```
@@ -42,7 +42,7 @@ Display documentation for the function function_name directly from an online ver
 If invoked without an argument, the manual is shown from the beginning. 
 
 ## Arithmetic Operators
-```
+```R
 a + b % Addition
 a - b % Subtraction
 a*b   % Multiplication
@@ -52,7 +52,7 @@ a/b % Division
 ## Variables 
 - Variables are data storage space for numeric or string (or text) values.
 
-```
+```R
 whos
 ```
 
@@ -66,12 +66,12 @@ Extended information about each variable is summarized in a table with the follo
 1. Row Vector
 
 - Creating Vector 
-```
+```R
 Variable name = [ element1 element2 element3... ]
 ```
 - Note : The index begins from 1 (not zero) , for instance , Variable name[2] => element2
 
-```
+```R
  linspace (base, limit, n)
  ```
 Return a row vector with n linearly spaced elements between base and limit.
@@ -81,26 +81,26 @@ If the number of elements is greater than one, then the endpoints base and limit
 2. Column Vector
 
 - Creating Vector 
-```
+```R
 Variable name = [element1; element2; element3; ... ]
 ```
 ## Matrices
 
 - Creating Matrix
-```
+```R
 Variable name = [element1 element2 element3; ... ]
 ```
 - Identity Matrix 
-```
+```R
 I= eye(n) % n is the size
 ```
 - Matrix with ones m by n size (/zeros)
-```
+```R
 a=ones(m,n) % zeros(m,n)
 ones(m) % zeros(m) m by m size
 ```
 - Random matrix
-```
+```R
  rand(m) % m by m size matrix with with random numbers between 0 and 1
  rand(m,n) % m by n size matrix with with random numbers between 0 and 1
 ```
@@ -108,7 +108,7 @@ ones(m) % zeros(m) m by m size
  Return a matrix with the specified dimensions whose elements are taken from the matrix.
  The elements of the matrix are accessed in column-major order (like
  Fortran arrays are stored).
- ```
+ ```R
  reshape(x,n,m) % rearrange the elements of x into n by m size matrix.
  ```
  <img src='./images/reshape.png' align="center"/>
@@ -119,14 +119,14 @@ ones(m) % zeros(m) m by m size
  <img src='./images/eig().png' align="center"/>
 
 - Inverse of a matrix
-```
+```R
   inv(A)
 ```
  <img src='./images/inv.png' align="center"/>
 
 
 - Combination of matrices (e.g a and b)
-```
+```R
 c = [a b] %row
 c = [a;b] %column
 ```
@@ -142,7 +142,7 @@ c = [a;b] %column
 ## Scatter Plot
 <img src='./images/plotting.png' align="center"/>
 
-```
+```R
 title('this is the title of the graph')
 set(gca,'fontsize',number) 
 xlabel('this text will appear below the x-axis.')
@@ -153,7 +153,7 @@ axis([XminXmaxYminYmax])
 
 ## Line Plot 
 
-``` 
+```R
 plot(x1,y1,property1,x2,y2,property2,...xn,yn,propertyn,)
 ```
 <img src='./images/line.png' align="center"/>
@@ -189,7 +189,7 @@ plot(x1,y1,property1,x2,y2,property2,...xn,yn,propertyn,)
 
 ## Loops
 - For loop
- ```
+ ```R
 for var = expression
     body
 end
@@ -197,7 +197,7 @@ end
  ```
 
  Example 1 :
- ```
+ ```R
 % the value of i will move from 1 to 5
 % with an increment of 1
 for i = 1:5,
@@ -209,7 +209,7 @@ disp(i);
 end;
 ```
 Example 2 : for loop with vectors :
-```
+```R
 % making a column vector from 1 to 10
 v = [1; 2; 3; 4; 5; 6; 7; 8; 9; 10];
   
@@ -230,7 +230,7 @@ disp(v) % Output :  10 20 30 ... 100
 
 - While loop
 
-```
+```R
 while (condition)
     body
 end
@@ -238,7 +238,7 @@ end
 ```
  Example 1 : 
 
- ```
+ ```R
 i = 1;
 
 while i <= 10
